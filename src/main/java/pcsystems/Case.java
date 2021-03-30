@@ -18,8 +18,8 @@ public class Case {
         return powerSupply;
     }
 
-    public String getDimension() {
-        return dimension.toString();
+    public Dimension getDimension() {
+        return dimension;
     }
 
     public Case(String model, String manufacturer, String powerSupply, Dimension dimension) {

@@ -34,4 +34,12 @@ public class Dimension {
         this.width = width;
         this.depth = depth;
     }
+
+    @Override
+    public String toString() {
+        return "height=" + height +
+                ", width=" + width +
+                ", depth=" + depth +
+                '}';
+    }
 }
